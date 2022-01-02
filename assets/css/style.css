@@ -2,7 +2,41 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: #191970;
+}
+
+/* mobile first */
+
 /* header style start */
+header {
+  color: white;
+  background-color: var(--primary-color);
+  padding-top: 5px;
+}
+
+header h1 {
+  text-align: center;
+  width: 100%;
+  margin: 5px auto 0 auto;
+}
+
+header nav {
+  padding: 5px 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+}
 
 /* main style start */
 
