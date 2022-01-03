@@ -63,6 +63,42 @@ header nav ul li a {
 .intro p {
   text-align: center;
   line-height: 1.3;
-  margin: 10px 10%;
+  margin: 0px 10%;
   padding-bottom: 10px;
+}
+
+/* about me style end */
+
+/* projects style start */
+.projects {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--primary-color);
+}
+
+.projects h2 {
+  padding: 10px 0;
+  color: white;
+}
+
+.project {
+  position: relative;
+  text-align: center;
+}
+
+.project img {
+  max-width: 80%;
+  height: auto;
+  margin: 0 10%;
+  border: 3px solid black;
+}
+
+.project-name {
+  position: absolute;
+  top: 200px;
+  left: 10%;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 5px;
 }
