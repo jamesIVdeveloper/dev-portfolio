@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Courier New", Courier, monospace;
 }
 
 :root {
@@ -21,11 +22,11 @@ header {
 header h1 {
   text-align: center;
   width: 100%;
-  margin: 5px auto 0 auto;
+  margin: 10px auto 5px auto;
 }
 
 header nav {
-  padding: 5px 0;
+  padding: 5px 15%;
 }
 
 header nav ul {
@@ -126,3 +127,39 @@ header nav ul li a {
 }
 
 /* contact style end */
+
+@media screen and (min-width: 980px) {
+  /* header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  header h1 {
+    display: flex;
+    align-items: center;
+  }
+
+  header nav {
+    padding-right: 0;
+  }
+
+  header nav ul li {
+    white-space: nowrap;
+    padding: 5px;
+    margin: 0 10px;
+  }
+
+  /* intro */
+  .intro {
+    padding: 0 10%;
+  }
+
+  .intro-info {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+  }
+}
